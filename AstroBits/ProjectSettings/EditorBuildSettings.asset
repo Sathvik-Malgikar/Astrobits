@@ -4,7 +4,19 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Shantesh.unity
+    guid: c7de8c56fbfb0ed4c932605c0df49a89
+  - enabled: 1
+    path: Assets/Scenes/HemabhushanScene.unity
+    guid: 0c48143be245fa644a15b2127643e38a
+  - enabled: 1
+    path: Assets/Scenes/Sathvik.unity
+    guid: 6d0e13951fb696a4493abd94a21d1ee9
+  - enabled: 1
+    path: Assets/Scenes/Sathvik_arrange.unity
+    guid: f8fea5eb05bb1ec4a94aaaf763358791
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: bfa1182bd221b4ca89619141f66f1260,
       type: 2}
