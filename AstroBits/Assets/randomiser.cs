@@ -66,6 +66,6 @@ public class randomiser : MonoBehaviour
     void Update()
     {
         if(active)
-        GameObject.Find("")
+        GameObject.Find("planets").GetComponent<Transform>().Rotate(Vector3.down,1f);
     }
 }
