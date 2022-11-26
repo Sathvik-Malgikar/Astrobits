@@ -5,6 +5,8 @@ using UnityEngine;
 public class randomiser : MonoBehaviour
 {
 
+    
+    public bool active;
     public Vector3[] poslist;
 
     void shuffle(Vector3[] arr){
@@ -63,6 +65,7 @@ public class randomiser : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(active)
+        GameObject.Find("")
     }
 }
