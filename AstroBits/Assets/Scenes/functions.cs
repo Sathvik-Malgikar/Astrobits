@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-public class startButton : MonoBehaviour
+public class functions : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -11,9 +11,17 @@ public class startButton : MonoBehaviour
     }
 
     public void loadGame(){
-Debug.Log("esdghwg");
 
-    SceneManager.LoadScene()
+
+    SceneManager.LoadScene(3);
+
+
+    }
+    public void exitGame(){
+
+
+    Application.Quit(0);
+
 
     }
 
