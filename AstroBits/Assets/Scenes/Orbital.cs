@@ -10,6 +10,7 @@ public class Orbital
         TimetoOrbit = 1;
     }
     public Orbital Parent;
+    public List<Orbital> Children;
     public double Angle;
 
     public UInt64 OrbitalDistance;
