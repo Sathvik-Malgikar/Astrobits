@@ -14,7 +14,7 @@ public class Galaxy
     public void Generate(int numStars)
     {
         Orbital ss = new Orbital();
-        SolarSystems.Add(ss);
+        SolarSystems.Add(ss); 
         //Making a solar system with a single star
         
     }
