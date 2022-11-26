@@ -57,6 +57,8 @@ public class randomiser : MonoBehaviour
           poslist[6] = GameObject.Find("uranus").GetComponent<Transform>().position;;
           poslist[7] = GameObject.Find("neptune").GetComponent<Transform>().position;
     
+Vector3[] aligned = (Vector3[])poslist.Clone();
+
         shuffle(poslist);
         assign(poslist);
 //    Debug.Log( poslist[7] );
