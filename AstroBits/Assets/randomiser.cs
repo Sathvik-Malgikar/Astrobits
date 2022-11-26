@@ -6,7 +6,7 @@ public class randomiser : MonoBehaviour
 {
 
     
-    public bool active;
+  
     public Vector3[] poslist;
 
     void shuffle(Vector3[] arr){
@@ -57,8 +57,6 @@ public class randomiser : MonoBehaviour
           poslist[6] = GameObject.Find("uranus").GetComponent<Transform>().position;;
           poslist[7] = GameObject.Find("neptune").GetComponent<Transform>().position;
     
-Vector3[] aligned = (Vector3[])poslist.Clone();
-
         shuffle(poslist);
         assign(poslist);
 //    Debug.Log( poslist[7] );
@@ -67,7 +65,6 @@ Vector3[] aligned = (Vector3[])poslist.Clone();
     // Update is called once per frame
     void Update()
     {
-        if(active)
-        GameObject.Find("planets").GetComponent<Transform>().Rotate(Vector3.down,1f);
+       
     }
 }
