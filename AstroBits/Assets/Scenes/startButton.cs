@@ -13,7 +13,7 @@ public class startButton : MonoBehaviour
     public void loadGame(){
 Debug.Log("esdghwg");
 
-    SceneManager.LoadScene()
+   // SceneManager.LoadScene()
 
     }
 
