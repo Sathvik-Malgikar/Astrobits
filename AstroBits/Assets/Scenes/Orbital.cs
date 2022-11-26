@@ -25,8 +25,8 @@ public class Orbital
             // Convert our orbit info into a vector that we can use to
             // render something as a Unity Game Object
             return new Vector3(
-                Math.Sin(Angle) * OrbitalDistance,
-                Math.Cos(Angle) * OrbitalDistance,
+                (float)Math.Sin(Angle) * OrbitalDistance,
+                (float)Math.Cos(Angle) * OrbitalDistance,
                 0
             );
         }
