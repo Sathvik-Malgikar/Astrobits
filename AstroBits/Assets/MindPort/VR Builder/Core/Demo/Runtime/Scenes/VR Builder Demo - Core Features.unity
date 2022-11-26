@@ -6058,7 +6058,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   m_InteractionLayers:
-    m_Bits: 256
+    m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -10258,10 +10258,10 @@ MonoBehaviour:
   m_DirectionalAnchorRotationAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Directional Anchor Rotation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 602b17be-c97c-4a25-84ff-db9434cfc115
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
@@ -11693,7 +11693,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   m_InteractionLayers:
-    m_Bits: 256
+    m_Bits: 4294967295
   m_AttachTransform: {fileID: 0}
   m_KeepSelectedTargetValid: 1
   m_StartingSelectedInteractable: {fileID: 0}
@@ -11955,10 +11955,10 @@ MonoBehaviour:
   m_DirectionalAnchorRotationAction:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Directional Anchor Rotation
       m_Type: 0
       m_ExpectedControlType: 
-      m_Id: 
+      m_Id: 657ee86e-b781-459d-9840-1d170a69888e
       m_Processors: 
       m_Interactions: 
       m_SingletonActionBindings: []
