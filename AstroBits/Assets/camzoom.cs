@@ -1,33 +1,23 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
-public class functions : MonoBehaviour
+
+public class camzoom : MonoBehaviour
 {
+    public float zoomlevel = 0.01f;
+
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    public void loadGame(){
-
-
-    SceneManager.LoadScene(3);
-
-
-    }
-    public void exitGame(){
-
-
-    Application.Quit(0);
-
-
-    }
-
     // Update is called once per frame
     void Update()
     {
-        
+        if(zoomlevel<=48)
+        zoomlevel+=Time.deltaTime;
+        else
+        zoomlevel=48f;
     }
 }
