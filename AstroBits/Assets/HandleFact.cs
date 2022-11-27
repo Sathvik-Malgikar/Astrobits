@@ -15,7 +15,7 @@ timer=0f;
         gameObject.GetComponent<TextMeshProUGUI>().text = "";
     }
 
-    void changeText(string s){
+    public void changeText(string s){
 gameObject.GetComponent<TextMeshProUGUI>().text = s;
     }
 
