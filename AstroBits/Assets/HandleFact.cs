@@ -34,10 +34,6 @@ gameObject.GetComponent<TextMeshProUGUI>().text = s;
         else if(gameObject.GetComponent<TextMeshProUGUI>().text!="" && timer==0f){
 timer = 2f;
         }
-      
-        
-
-
 
     }
 
