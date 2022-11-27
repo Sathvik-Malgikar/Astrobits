@@ -24,7 +24,7 @@ public class loadGame : MonoBehaviour
     void Update()
     {
         if(Input.GetMouseButton(0))
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(2);
         if(Input.GetMouseButton(1))
         Application.Quit();
     }
