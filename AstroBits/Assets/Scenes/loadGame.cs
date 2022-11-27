@@ -13,7 +13,7 @@ public class loadGame : MonoBehaviour
     void OnCollisionEnter2D(Collision2D other)
     {
         Debug.Log("inside loadgame");
-    SceneManager.LoadScene(3);
+    // SceneManager.LoadScene(3);
 
     }
 
@@ -23,6 +23,9 @@ public class loadGame : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetMouseButton(0))
+        SceneManager.LoadScene(3);
+        if(Input.GetMouseButton(1))
+        Application.Quit();
     }
 }
