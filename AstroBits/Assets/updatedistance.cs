@@ -19,6 +19,6 @@ public class updatedistance : MonoBehaviour
     void Update()
     {
             dist = (origin.transform.position - mespoint.transform.position).magnitude;
-        gameObject.GetComponent<TextMeshProUGUI>().text = "Distance from Earth in lightyears :"+dist;
+        gameObject.GetComponent<TextMeshProUGUI>().text = "Distance from Earth in nanolightyears :"+dist;
     }
 }
